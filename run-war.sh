@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-mvn tomcat7:run-war
+mvn verify org.codehaus.cargo:cargo-maven2-plugin:run
